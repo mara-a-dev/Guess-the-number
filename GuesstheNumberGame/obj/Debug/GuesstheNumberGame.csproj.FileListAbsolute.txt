@@ -4,3 +4,10 @@ c:\users\lenovo\documents\visual studio 2013\Projects\GuesstheNumberGame\Guessth
 c:\users\lenovo\documents\visual studio 2013\Projects\GuesstheNumberGame\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.csprojResolveAssemblyReference.cache
 c:\users\lenovo\documents\visual studio 2013\Projects\GuesstheNumberGame\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.exe
 c:\users\lenovo\documents\visual studio 2013\Projects\GuesstheNumberGame\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.pdb
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\bin\Debug\GuesstheNumberGame.exe.config
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\bin\Debug\GuesstheNumberGame.exe
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\bin\Debug\GuesstheNumberGame.pdb
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.csproj.AssemblyReference.cache
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.csproj.CoreCompileInputs.cache
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.exe
+C:\Users\Tim\source\repos\Guess-the-number\GuesstheNumberGame\obj\Debug\GuesstheNumberGame.pdb

@@ -19,11 +19,22 @@ namespace GuesstheNumberGame
         {
           
             if (guessedNum > rightNum)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Too High, Try Again!");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+                
             else if (guessedNum < rightNum)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Too Low, Try Again!");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+                
             else
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Congratulations. You guessed the number!");
 
                 userplay = 1;
@@ -35,15 +46,19 @@ namespace GuesstheNumberGame
                     Console.WriteLine("You should be able to do better!");
                 else
                     Console.WriteLine("Aha! You know the secret!");
+                Console.ForegroundColor = ConsoleColor.Yellow;
 
                 Console.WriteLine("Do you want to play again ? Press 1 or Press any other number to quit");
+                Console.ForegroundColor = ConsoleColor.White;
 
                 startOver = Convert.ToInt32(Console.ReadLine());
                 if (startOver == 1)
                 {
                     rightNum = rand.Next(1, 1000);
                     userplay = 0;
+                    Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Guess a number between 1 and 1000");
+                    Console.ForegroundColor = ConsoleColor.White;
                     zeroCounter();
                 }
             }
@@ -57,9 +72,10 @@ namespace GuesstheNumberGame
         static void Main(string[] args)
         {
             int num = 0;
-            
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Guess a number between 1 and 1000");
-            
+            Console.ForegroundColor = ConsoleColor.White;
+
             while (userplay == 0)
             {
                 num = Convert.ToInt32(Console.ReadLine());
